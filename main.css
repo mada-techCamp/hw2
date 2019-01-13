@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    color:#ffffff;
+  }
+html{
+    background-color: #1c1d24;
+    min-height: 100vh;
+    margin: 0;
+}
+header{
+    position: fixed;
+top:0;
+background-color: transparent;
+padding: 10px;
+width:100%;
+display:flex;
+justify-content:space-between;
+}
+span{
+    color:#dc5863;
+}
+p{
+    width:35vh;
+}
+nav{
+ position: fixed;   
+ top:70px;
+width:8%;
+border-bottom-right-radius: 5px;
+border-top-right-radius: 5px;
+ background-color: transparent;
+height:500px;
+display:flex;
+justify-content:space-around;
+flex-direction: column;
+
+}
+.href{
+    height:10vh;
+}
+.margin{
+   margin-left:130px;
+   height:90vh;
+}
+
+  
+a{
+  width:100%;
+  font-size: 20px;
+    text-decoration: none;
+    color:#b0b2c1;
+}
+
+a:hover{
+      color:#ffffff;
+  }
+
+footer{
+   position: fixed;
+    background-color: #1c1d24; 
+    padding: 15px;
+    bottom:0;
+    width:100%;
+    text-align: center;
+    background-color:rgba(255, 255, 255, .1);
+    left:0;
+}
+.p1 div{
+margin-top: 13%;
+margin-left: 4%;
+}
+.p1 div h1{
+    font-size:80px;
+    height:40px;
+}
+
+.p1 div h2{
+    font-style: italic;
+}
+.p2{
+    display: flex;
+}
+.p2 .first{
+    margin-top: 5%;
+    margin-left: 17%;
+    width:30%;
+    height:69%;
+    background-color:#ebebeb;
+    box-shadow: 0px 4px 8px 6px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .p2 .second{
+        margin-top: 5%;
+        width:30%;
+        height:69%;
+        background-color:transparent;
+        box-shadow: 0px 4px 8px 6px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       
+    }
+    .divs{
+        height:70px;
+    }
+    .icons{
+        display:inline-block;
+        width:30%;
+    }
+    
+  input{
+      background-color: transparent;
+      border-color:transparent;
+      border-bottom-color: whitesmoke;
+      width:400px;
+  }
+ textarea{
+    background-color: transparent;
+    border-color:transparent;
+    border-bottom-color: whitesmoke;
+    width:400px;
+}
+button{
+background-color: #73f6d3;
+color:black;
+font-size:15px;
+border:none;
+width:100px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #ffff;
+    /* color:white; */
+}
+    .p2 div h2{
+        color:black;
+        margin-left: 15%;
+    }
+    .p2 div p{
+        color:black;
+        margin-left: 15%;
+    }
+    .p3 div{
+     margin-left:30%;
+     margin-top:10%;
+    }
+ .p3 div h1{
+    color: #73f6d3;
+ }
+ .blink{
+    border-left:2px solid #73f6d3;
+    height:11px;
+    animation: blink 1s linear 1s infinite;
+ }
+ .typping{
+    color:#73f6d3;
+    font-size: 20px;
+}
+ @keyframes blink {
+    from, to { border-color: transparent }
+    50% { border-color: #73f6d3}
+  }
+  @keyframes writing {
+    from, to { color: transparent }
+    50% { color: #73f6d3}
+  }
